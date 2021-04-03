@@ -9,17 +9,16 @@ import (
 	_ "github.com/apache/dubbo-go/protocol/dubbo3"
 	_ "github.com/apache/dubbo-go/registry/protocol"
 	_ "github.com/apache/dubbo-go/registry/zookeeper"
-	"triple-grpc/server/pkg"
-	_ "github.com/dubbogo/triple/pkg/triple"
 	"os"
 	"os/signal"
 	"syscall"
 	"time"
+	"triple-grpc/server/pkg"
 )
 
 // survival time
 var (
-	survivalTimeout = 	int(3e9)
+	survivalTimeout = int(3e9)
 )
 
 func main() {

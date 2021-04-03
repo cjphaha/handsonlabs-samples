@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/apache/dubbo-go/config"
-	pb "triple-grpc/protobuf"
-	"triple-grpc/client/pkg"
 	"context"
 	"fmt"
+	"github.com/apache/dubbo-go/config"
+	"triple-grpc/client/pkg"
+	pb "triple-grpc/protobuf"
 
 	_ "github.com/apache/dubbo-go/cluster/cluster_impl"
 	_ "github.com/apache/dubbo-go/cluster/loadbalance"
@@ -19,13 +19,13 @@ import (
 
 var grpcGreeterConsumer = new(pkg.GrpcGreeterConsumer)
 
-func main( )  {
+func main() {
 	config.SetConsumerService(grpcGreeterConsumer)
 	config.Load()
 	test()
 }
 
-func test(){
+func test() {
 	in := &pb.Dubbo3HelloRequest{
 		Req: "cjp",
 	}
