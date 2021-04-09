@@ -17,7 +17,7 @@ func NewGreeterProvider() *GreeterProvider {
 }
 
 func (g *GreeterProvider) Dubbo3Hello(ctx context.Context, in *pb.Dubbo3HelloRequest) (*pb.Dubbo3HelloReply, error) {
-	fmt.Println("######### get server request data :" + in.Req)
+	fmt.Println("######### get server request data :", in.Req)
 	fmt.Println("get tri-req-id = ", ctx.Value("tri-req-id"))
 	return &pb.Dubbo3HelloReply{Rsp: "Hello " + in.Req}, nil
 }
