@@ -10,15 +10,15 @@ application:
 
 # registry config
 registries:
-  "demoZk":
-    protocol: "zookeeper"
-    timeout: "3s"
-    address: "127.0.0.1:2181"
+  "nacos":
+    protocol: "nacos"
+    timeout	: "3s"
+    address: "127.0.0.1:8848"
 
 # service config
 services:
   "GrpcGreeterImpl":
-    registry: "demoZk"
+    registry: "nacos"
     protocol: "tri"
     interface: "org.apache.dubbo.GreeterGrpc$IGreeter"
     loadbalance: "random"

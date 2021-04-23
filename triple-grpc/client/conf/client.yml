@@ -16,17 +16,15 @@ application:
 
 # registry config
 registries:
-  "demoZk":
-    protocol: "zookeeper"
-    timeout: "3s"
-    address: "127.0.0.1:2181"
-    username: ""
-    password: ""
+  "nacos":
+    protocol: "nacos"
+    timeout	: "3s"
+    address: "127.0.0.1:8848"
 
 # reference config
 references:
   "GrpcGreeterImpl":
-    registry: "demoZk"
+    registry: "nacos"
     protocol: "tri"
     interface: "org.apache.dubbo.GreeterGrpc$IGreeter"
     url: tri://localhost:20001
