@@ -15,13 +15,11 @@ application:
   environment : "dev"
 
 # registry config
-registries :
-  "demoZk":
-    protocol: "zookeeper"
+registries:
+  "nacos":
+    protocol: "nacos"
     timeout	: "3s"
-    address: "127.0.0.1:2181"
-    username: ""
-    password: ""
+    address: "127.0.0.1:8848"
 
 # reference config
 references:
