@@ -24,7 +24,7 @@ registries:
 # reference config
 references:
   "gateConsumer.basketballService":
-    registry: "demoZk"
+    registry: "nacos"
     protocol : "dubbo"
     interface : "org.apache.dubbo.gate.BasketballService"
     cluster: "failover"

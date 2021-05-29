@@ -18,7 +18,7 @@ registries:
 # service config
 services:
   "gateProvider.basketballService":
-    registry: "demoZk"
+    registry: "nacos"
     protocol : "dubbo"
     interface : "org.apache.dubbo.gate.BasketballService"
     loadbalance: "random"
