@@ -13,7 +13,7 @@ registries:
   "nacos":
     protocol: "nacos"
     timeout	: "3s"
-    address: "127.0.0.1:8848"
+    address: "127.0.0.1:65000"
 
 # service config
 services:
