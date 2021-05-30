@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 	"github.com/apache/dubbo-go/config"
-	"triple-grpc/client/pkg"
-	pb "triple-grpc/protobuf"
+	"github.com/cjphaha/handsonlabs-samples/triple-grpc/client/pkg"
+	pb "github.com/cjphaha/handsonlabs-samples/triple-grpc/protobuf"
 
 	_ "github.com/apache/dubbo-go/cluster/cluster_impl"
 	_ "github.com/apache/dubbo-go/cluster/loadbalance"

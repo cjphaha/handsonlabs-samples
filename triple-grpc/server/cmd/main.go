@@ -18,7 +18,7 @@ import (
 	"os/signal"
 	"syscall"
 	"time"
-	"triple-grpc/server/pkg"
+	"github.com/cjphaha/handsonlabs-samples/triple-grpc/server/pkg"
 )
 
 // survival time

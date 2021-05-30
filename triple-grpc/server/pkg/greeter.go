@@ -3,7 +3,7 @@ package pkg
 import (
 	"context"
 	"fmt"
-	pb "triple-grpc/protobuf"
+	pb "github.com/cjphaha/handsonlabs-samples/triple-grpc/protobuf"
 )
 
 type GreeterProvider struct {

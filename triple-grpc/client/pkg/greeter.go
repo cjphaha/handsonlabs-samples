@@ -3,7 +3,7 @@ package pkg
 import (
 	"context"
 	dubbo3 "github.com/dubbogo/triple/pkg/triple"
-	pb "triple-grpc/protobuf"
+	pb "github.com/cjphaha/handsonlabs-samples/triple-grpc/protobuf"
 )
 
 type GrpcGreeterConsumer struct {
