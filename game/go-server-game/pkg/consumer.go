@@ -1,5 +1,5 @@
 package pkg
 
-import "github.com/apache/dubbo-go-samples/game/pkg/consumer/gate"
+import "github.com/cjphaha/handsonlabs-samples/game/pkg/consumer/gate"
 
 var GateBasketball = new(gate.BasketballService)

@@ -2,8 +2,8 @@ package pkg
 
 import (
     "context"
-    "github.com/apache/dubbo-go-samples/game/pkg/consumer/game"
-    "github.com/apache/dubbo-go-samples/game/pkg/pojo"
+    "github.com/cjphaha/handsonlabs-samples/game/pkg/consumer/game"
+    "github.com/cjphaha/handsonlabs-samples/game/pkg/pojo"
 )
 
 var GameBasketball = new(game.BasketballService)

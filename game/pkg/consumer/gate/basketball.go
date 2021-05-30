@@ -2,7 +2,7 @@ package gate
 
 import (
     "context"
-    "github.com/apache/dubbo-go-samples/game/pkg/pojo"
+    "github.com/cjphaha/handsonlabs-samples/game/pkg/pojo"
 )
 
 type BasketballService struct {

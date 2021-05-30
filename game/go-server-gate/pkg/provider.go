@@ -4,7 +4,7 @@ import (
     "context"
     "github.com/apache/dubbo-go/common/logger"
 
-    "github.com/apache/dubbo-go-samples/game/pkg/pojo"
+    "github.com/cjphaha/handsonlabs-samples/game/pkg/pojo"
 )
 
 type BasketballService struct{}

@@ -20,8 +20,8 @@ import (
     _ "github.com/apache/dubbo-go/metadata/service/inmemory"
     _ "github.com/apache/dubbo-go/registry/zookeeper"
 
-    "github.com/apache/dubbo-go-samples/game/pkg/consumer/gate"
-    "github.com/apache/dubbo-go-samples/game/pkg/pojo"
+    "github.com/cjphaha/handsonlabs-samples/game/pkg/consumer/gate"
+    "github.com/cjphaha/handsonlabs-samples/game/pkg/pojo"
 )
 
 var gateProvider = new(gate.BasketballService)

@@ -22,8 +22,8 @@ import (
     _ "github.com/apache/dubbo-go/metadata/service/inmemory"
     _ "github.com/apache/dubbo-go/registry/zookeeper"
 
-    "github.com/apache/dubbo-go-samples/game/go-server-game/pkg"
-    "github.com/apache/dubbo-go-samples/game/pkg/pojo"
+    "github.com/cjphaha/handsonlabs-samples/game/go-server-game/pkg"
+    "github.com/cjphaha/handsonlabs-samples/game/pkg/pojo"
 )
 
 func init() {
