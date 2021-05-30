@@ -25,7 +25,7 @@ import (
     _ "github.com/apache/dubbo-go/cluster/loadbalance"
     // _ "github.com/apache/dubbo-go/metadata/service/remote"
     _ "github.com/apache/dubbo-go/metadata/service/inmemory"
-    _ "github.com/apache/dubbo-go/registry/zookeeper"
+    _ "github.com/apache/dubbo-go/registry/nacos"
 
     "github.com/cjphaha/handsonlabs-samples/game/go-server-gate/pkg"
     "github.com/cjphaha/handsonlabs-samples/game/pkg/pojo"

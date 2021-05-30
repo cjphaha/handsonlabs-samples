@@ -14,10 +14,10 @@ import (
 )
 
 import (
-	dubboConstant "github.com/apache/dubbo-go/common/constant"
-	"github.com/apache/dubbo-go/protocol"
-	dgrpc "github.com/apache/dubbo-go/protocol/grpc"
-	"github.com/apache/dubbo-go/protocol/invocation"
+	dubboConstant "dubbo.apache.org/dubbo-go/v3/common/constant"
+	"dubbo.apache.org/dubbo-go/v3/protocol"
+	dgrpc "dubbo.apache.org/dubbo-go/v3/protocol/grpc"
+	"dubbo.apache.org/dubbo-go/v3/protocol/invocation"
 	dubbo3 "github.com/dubbogo/triple/pkg/triple"
 )
 
