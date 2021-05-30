@@ -1,4 +1,4 @@
-var baseURL = 'http://127.0.0.1:8089/'
+var baseURL = window.document.location.href.replace("63000", "6000")
 
 function login(data) {
     return new Promise(function(resolve, reject) {
