@@ -123,7 +123,7 @@ func startHttp() {
         responseWithOrigin(w, r, 200, b)
     })
 
-    http.Handle("/website", http.FileServer(http.Dir("game/website/")))
+    http.Handle("/", http.FileServer(http.Dir("../../website/")))
 
     _ = http.ListenAndServe("0.0.0.0:60000", nil)
 }

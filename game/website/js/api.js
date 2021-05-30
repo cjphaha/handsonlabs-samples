@@ -1,4 +1,4 @@
-var baseURL = window.document.location.href.replace("63000", "60000")
+var baseURL = window.document.location.href
 
 function login(data) {
     return new Promise(function(resolve, reject) {
